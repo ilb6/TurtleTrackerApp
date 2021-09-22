@@ -1,0 +1,4 @@
+turtle tracking data pulled from https://raw.githubusercontent.com/ENV859/TurtleTest/master/Sara.txt 
+
+Pulled 09/21
+Isabel Bukovnik 2021
