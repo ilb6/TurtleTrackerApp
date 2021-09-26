@@ -1,4 +1,19 @@
-
+# uid	record id
+# tag_id	transmitter ID number
+# utc	universal time coordinate
+# lc	location class, see http://www.nacls.com/html/argos/manual/html/chap2/chap2_3.htm#2.3.5
+# iq	quality index, see http://www.nacls.com/html/argos/manual/html/chap4/chap4_4_9.htm#4.4.9.3 
+# lat1	solution1 latitude
+# lon1	solution1 longitude
+# lat2	solution2 latitude
+# lon2	solution2 longitude
+# nb_mes	number of messages received
+# big_nb_mes	number of messages received by satellite with signal strength greater than -120 decibels
+# best_level	strongest signal strength received
+# pass_duration	time elapsed between first and last messages being received by satellite
+# nopc	number of successful plausibility checks (0 to 4)
+# calcul_freq	calculated transmit frequency 
+# altitude	altitude used in location calculation
 uid	tag_id	utc	lc	iq	lat1	lon1	lat2	lon2	nb_mes	big_nb_mes	best_level	pass_duration	nopc	calcul_freq	altitude
 20616	29051	7/3/2003 9:13	3	66	33.898	-77.958	27.369	-46.309	6	0	-126	529	3	401 651134.7	0
 21892	29051	7/3/2003 9:23	B	0	33.887	-77.95	43.983	-128.418	2	0	-132	96	1	401 651133.1	0
