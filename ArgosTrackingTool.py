@@ -10,7 +10,7 @@
 #--------------------------------------------------------------
 
 #ask user for search date
-user_date = input("Enter date to search for Sara: ")
+user_date = input("Enter date to search for Sara [M/D/YYYY]: ")
 
 
 #Create a variable point to the data file
@@ -63,7 +63,11 @@ for date_item in date_dict.items():
     if the_date == user_date:
         #if so, add the key to the list
         matching_keys.append(the_key)
-        
+
+#If no records are found, tell the user
+if len(matching_keys) == 0:
+        print(f"No observations found on {user_date}")
+
 #Reveal locations for each key in matching_keys
 for matching_key in matching_keys:
     obs_lat, obs_lon = coord_dict[matching_key]
